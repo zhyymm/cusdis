@@ -2,6 +2,7 @@
   "name": "cusdis",
   "scripts": {
     "dev": "DB_TYPE=sqlite npm run dev:general",
+    "build": "NEXTAUTH_SECRET=your_random_string_here DB_TYPE=pgsql npm run db:generate && next build && npm run build:widget"，
     "dev:pg": "DB_TYPE=pgsql npm run dev:general",
     "dev:mysql": "DB_TYPE=mysql npm run dev:general",
     "dev:general": "npm run db:deploy && npm run db:generate && next dev",
