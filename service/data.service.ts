@@ -1,6 +1,9 @@
 import { prisma } from '../utils.server'
 
-const parser = require('xml2json')
+const convert = require('xml-js')
+const parser = {
+  toJson: (xml: string) => convert.xml2json(xml, { compact: true, spaces: 0 })
+}
 import TurndownService from 'turndown'
 import { statService } from './stat.service'
 const turndownService = new TurndownService()
