@@ -1,7 +1,7 @@
 window.CUSDIS = {}
 
 const makeIframeContent = (target) => {
-  const host = target.dataset.host || 'https://cusdis.com'
+  const host = target.dataset.host || 'https://cusdis-nine-drab.vercel.app'
   const iframeJsPath = target.dataset.iframe || `${host}/js/iframe.umd.js`
   const cssPath = `${host}/js/style.css`
   return `<!DOCTYPE html>
