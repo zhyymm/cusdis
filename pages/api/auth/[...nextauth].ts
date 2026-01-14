@@ -33,8 +33,9 @@ export default NextAuth({
   },
 
   jwt: {
-    secret: resolvedConfig.jwtSecret,
+    secret: "moho2026secret",
   },
+  secret: "moho2026secret",
 
   callbacks: {
     session(session, user) {
