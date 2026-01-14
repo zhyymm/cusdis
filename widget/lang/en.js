@@ -1,14 +1,14 @@
 export default {
-  powered_by: 'Comments powered by Cusdis',
-  post_comment: 'Comment',
-  loading: 'Loading',
+  powered_by: '评论由福智双修提供',
+  post_comment: '评论',
+  loading: '正在加载',
 
   // comment
-  email: 'Email (optional)',
-  nickname: 'Nickname',
-  reply_placeholder: 'Reply...',
-  reply_btn: 'Reply',
-  sending: 'sending...',
+  email: '邮箱 (可选)',
+  nickname: '昵称',
+  reply_placeholder: '回复...',
+  reply_btn: '回复',
+  sending: '发送...',
 
   // reply
   mod_badge: 'MOD',
@@ -16,5 +16,5 @@ export default {
   nickname_is_required: 'Nickname is required',
 
   comment_has_been_sent:
-    'Your comment has been sent. Please wait for approval.',
+    '您的评论已经送出. 请等待审核.',
 }
