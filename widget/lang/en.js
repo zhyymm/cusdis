@@ -1,20 +1,20 @@
 export default {
   powered_by: '评论由福智双修提供',
-  post_comment: '评论',
-  loading: '正在加载',
+  post_comment: '发送',
+  loading: '加载中',
 
   // comment
-  email: '邮箱 (可选)',
+  email: '邮箱地址 (可选)',
   nickname: '昵称',
-  reply_placeholder: '回复...',
+  reply_placeholder: '回复内容…',
   reply_btn: '回复',
-  sending: '发送...',
+  sending: '发送中...',
 
   // reply
-  mod_badge: 'MOD',
-  content_is_required: 'Content is required',
-  nickname_is_required: 'Nickname is required',
+  mod_badge: '管理员',
+  content_is_required: '内容不能为空',
+  nickname_is_required: '昵称不能为空',
 
   comment_has_been_sent:
-    '您的评论已经送出. 请等待审核.',
+    '评论已发送，管理员审核通过后会展示.',
 }
